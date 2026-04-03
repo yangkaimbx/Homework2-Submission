@@ -1,0 +1,56 @@
+# ============================================================
+# Week 2: LLM Architecture & Training Lifecycle
+# ============================================================
+# Install: pip install -r requirements.txt
+#
+# ALSO REQUIRED (system packages — see README.md):
+#   macOS:  brew install tesseract poppler ffmpeg
+#   Ubuntu: sudo apt install tesseract-ocr poppler-utils ffmpeg
+# ============================================================
+
+# --- Core (inherited from Week 1) ---
+jupyter>=1.0.0
+ipykernel>=6.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+
+# --- Path A: Claude API ---
+anthropic>=0.40.0
+
+# --- Path B: Ollama ---
+ollama>=0.1.0
+
+# --- Transformer architecture experiments ---
+torch>=2.0.0
+transformers>=4.40.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+bertviz>=1.4.0
+
+# --- Tokenization ---
+tiktoken>=0.7.0
+sentencepiece>=0.2.0
+huggingface_hub>=0.23.0
+
+# --- Data collection ---
+trafilatura>=1.12.0
+pdfplumber>=0.10.0
+pdf2image>=1.17.0
+pytesseract>=0.3.13
+faster-whisper>=1.0.0
+yt-dlp>=2024.11.0
+
+# --- Data cleaning ---
+langdetect>=1.0.9
+datasketch>=1.6.0
+presidio-analyzer>=2.2.0
+presidio-anonymizer>=2.2.0
+
+# --- Presidio NLP backend (optional) ---
+# spacy>=3.6.0
+# After installing spacy, run:
+#   python -m spacy download en_core_web_lg
+#
+# Note: If spacy install fails on Python 3.9, the PII removal
+# falls back to regex-based detection automatically.

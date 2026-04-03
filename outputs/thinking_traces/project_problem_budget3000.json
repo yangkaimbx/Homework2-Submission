@@ -1,0 +1,10 @@
+{
+  "prompt": "\n[YOUR PROBLEM HERE \u2014 should benefit from deep reasoning]\n\nGood candidates:\n  - A complex design decision: \"Should I use RAG or fine-tuning for [use case]?\"\n  - A tricky data analysis question in your domain\n  - An ethical dilemma about AI deployment in your field\n  - A multi-constraint optimization problem\n",
+  "budget_tokens": 3000,
+  "thinking": "The user hasn't actually provided a problem - they left the template placeholder text \"[YOUR PROBLEM HERE \u2014 should benefit from deep reasoning]\" without filling it in. I should let them know they need to provide an actual problem.",
+  "answer": "# No Problem Detected Yet\n\nIt looks like you sent the **template instructions** rather than an actual problem to solve.\n\nThe placeholder `[YOUR PROBLEM HERE]` wasn't filled in.\n\n---\n\n## Here's What To Do\n\n**Paste or describe your actual problem.** Good examples:\n\n| Type | Example |\n|------|---------|\n| \ud83c\udfd7\ufe0f Design decision | \"Should I use RAG or fine-tuning to build a customer support bot for a legal firm?\" |\n| \ud83d\udcca Data analysis | \"My model has 94% accuracy but terrible real-world performance \u2014 why?\" |\n| \u2696\ufe0f Ethical dilemma | \"Should we deploy a hiring AI that's more accurate but less explainable?\" |\n| \ud83d\udd27 Optimization | \"I need to minimize cost, latency, AND hallucinations in my LLM pipeline\" |\n\n---\n\n**What I'll do once you share it:**\n- Break down the reasoning step by step\n- Surface trade-offs you might not have considered\n- Give a concrete, defensible recommendation\n- Flag assumptions and uncertainty honestly\n\n**What's your problem?**",
+  "usage": {
+    "input_tokens": 114,
+    "output_tokens": 315
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "text": "Large language models learn to predict the next token in a sequence. This simple objective, applied at massive scale, gives rise to remarkable emergent capabilities.",
+  "char_count": 165,
+  "results": {
+    "tiktoken_cl100k": {
+      "token_count": 30,
+      "first_10_ids": [
+        35353,
+        4221,
+        4211,
+        4048,
+        311,
+        7168,
+        279,
+        1828,
+        4037,
+        304
+      ],
+      "description": "OpenAI cl100k_base (GPT-4 / similar to Claude)"
+    },
+    "hf_gpt2": {
+      "token_count": 30,
+      "first_10_ids": [
+        21968,
+        3303,
+        4981,
+        2193,
+        284,
+        4331,
+        262,
+        1306,
+        11241,
+        287
+      ],
+      "description": "HuggingFace gpt2 BPE tokenizer"
+    },
+    "sentencepiece_t5": {
+      "token_count": 33,
+      "first_10_ids": [
+        7199,
+        1612,
+        2250,
+        669,
+        12,
+        9689,
+        8,
+        416,
+        14145,
+        16
+      ],
+      "description": "SentencePiece Unigram LM via T5-small"
+    }
+  },
+  "winner_fewest_tokens": "tiktoken_cl100k",
+  "most_tokens": "sentencepiece_t5",
+  "compression_ratio": {
+    "tiktoken_cl100k": 5.5,
+    "hf_gpt2": 5.5,
+    "sentencepiece_t5": 5.0
+  }
+}
