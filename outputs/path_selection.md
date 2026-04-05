@@ -1,6 +1,6 @@
 # Path Selection — Week 2
 
-**Selected Path:** B
+**Selected Path:** C
 
 ## Rationale
 

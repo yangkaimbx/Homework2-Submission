@@ -115,7 +115,10 @@ class LLMClient:
             use_claude_backend = use_claude if use_claude is not None else True
 
         if model is None:
-            model = self.default_model
+            if use_claude_backend:
+                model = self.DEFAULT_CLAUDE_MODEL
+            else:
+                model = self.default_model or self.DEFAULT_OLLAMA_MODEL
 
         if use_claude_backend:
             return self._generate_claude(prompt, system, model, temperature, max_tokens)

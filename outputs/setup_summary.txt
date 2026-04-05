@@ -1,6 +1,6 @@
 Week 2 Setup Summary
 ========================================
-Completed: 2026-04-02 18:49:07
-Path: B
+Completed: 2026-04-05 16:48:57
+Path: C
 Default model: qwen3.5:27b
 API test: ✓ passed
